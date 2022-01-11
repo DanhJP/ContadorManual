@@ -13,7 +13,7 @@ namespace ContadorManual.Desktop
         public MainWindow()
         {
             InitializeComponent();
-                
+            contador = new Contador();
         }
 
         private void ReiniciarButton_Click(object sender, RoutedEventArgs e)
@@ -32,5 +32,7 @@ namespace ContadorManual.Desktop
         {
             this.Close();
         }
+
+
     }
 }
